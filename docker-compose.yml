@@ -1,0 +1,16 @@
+services:
+  ui:
+    build: .
+    command: streamlit run app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    environment:
+      - ML_ATLAS_MODEL_PATH=artifacts/demo_iris_pipeline.pkl
+
+  api:
+    build: .
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - ML_ATLAS_MODEL_PATH=artifacts/demo_iris_pipeline.pkl
