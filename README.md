@@ -170,7 +170,7 @@ The Dataset Lab provides:
 
 See ML Atlas 2026 in action — from interactive ML exploration and dataset benchmarking to model optimization and production ML workflows.
 
-▶️ **[Watch the ML Atlas 2026 Demo](docs/demo/ml-atlas-2026-demo.mp4)**
+▶️ **[![ML Atlas 2026 Demo](docs/demo/ml-atlas-2026-demo-preview.gif)](docs/demo/ml-atlas-2026-demo.mp4)**
 
 The demo covers:
 
