@@ -166,6 +166,28 @@ The Dataset Lab provides:
 
 ---
 
+## 🎬 Product Demo
+
+See ML Atlas 2026 in action — from interactive ML exploration and dataset benchmarking to model optimization and production ML workflows.
+
+▶️ **[Watch the ML Atlas 2026 Demo](docs/demo/ml-atlas-2026-demo.mp4)**
+
+The demo covers:
+
+- Machine Learning Taxonomy Explorer
+- Model Playground
+- Dataset Lab
+- Automated model benchmarking
+- Optimization Lab
+- Production ML Lab
+- Drift monitoring
+- Model diagnostics
+- Batch prediction
+
+### 🚀 [Try the Live Application](https://ml-atlas-2026.streamlit.app/)
+
+---
+
 # 🤖 Automated Task Detection
 
 ML Atlas can infer whether a selected target represents a:
